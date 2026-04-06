@@ -40,7 +40,7 @@ You can then access the Petclinic at <http://localhost:8080/>.
 You can, of course, run Petclinic in your favorite IDE.
 See below for more details.
 
-## Building a Container(dbsshebfeu)(sdhghujh)
+## Building a Container
 
 There is no `Dockerfile` in this project. You can build a container image (if you have a docker daemon) using the Spring Boot build plugin:
 
@@ -52,7 +52,7 @@ There is no `Dockerfile` in this project. You can build a container image (if yo
 
 Our issue tracker is available [here](https://github.com/spring-projects/spring-petclinic/issues).
 
-## Database configuration(fcgh)
+## Database configuration
 
 In its default configuration, Petclinic uses an in-memory database (H2) which
 gets populated at startup with data. The h2 console is exposed at `http://localhost:8080/h2-console`,
@@ -87,7 +87,7 @@ or
 docker compose up postgres
 ```
 
-## Test Applications
+## Test Applications(dxcfgvkjnkl)
 
 At development time we recommend you use the test applications set up as `main()` methods in `PetClinicIntegrationTests` (using the default H2 database and also adding Spring Boot Devtools), `MySqlTestApplication` and `PostgresIntegrationTests`. These are set up so that you can run the apps in your IDE to get fast feedback and also run the same classes as integration tests against the respective database. The MySql integration tests use Testcontainers to start the database in a Docker container, and the Postgres tests use Docker Compose to do the same thing.
 
